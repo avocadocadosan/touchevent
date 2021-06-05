@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421BD24F266B386200B9ADA3 /* 桜.png in Resources */ = {isa = PBXBuildFile; fileRef = 421BD24A266B386200B9ADA3 /* 桜.png */; };
+		421BD250266B386200B9ADA3 /* 木.png in Resources */ = {isa = PBXBuildFile; fileRef = 421BD24B266B386200B9ADA3 /* 木.png */; };
+		421BD251266B386200B9ADA3 /* はな.png in Resources */ = {isa = PBXBuildFile; fileRef = 421BD24C266B386200B9ADA3 /* はな.png */; };
+		421BD252266B386200B9ADA3 /* hert.png in Resources */ = {isa = PBXBuildFile; fileRef = 421BD24D266B386200B9ADA3 /* hert.png */; };
+		421BD275266B3C4A00B9ADA3 /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 421BD274266B3C4A00B9ADA3 /* hana.png */; };
 		42CEAEAF266A38BB00D3B68D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEAEAE266A38BB00D3B68D /* AppDelegate.swift */; };
 		42CEAEB1266A38BB00D3B68D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEAEB0266A38BB00D3B68D /* SceneDelegate.swift */; };
 		42CEAEB3266A38BB00D3B68D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CEAEB2266A38BB00D3B68D /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		421BD24A266B386200B9ADA3 /* 桜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桜.png"; sourceTree = "<group>"; };
+		421BD24B266B386200B9ADA3 /* 木.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木.png"; sourceTree = "<group>"; };
+		421BD24C266B386200B9ADA3 /* はな.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はな.png"; sourceTree = "<group>"; };
+		421BD24D266B386200B9ADA3 /* hert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hert.png; sourceTree = "<group>"; };
+		421BD274266B3C4A00B9ADA3 /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
 		42CEAEAB266A38BB00D3B68D /* touchevent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchevent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CEAEAE266A38BB00D3B68D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CEAEB0266A38BB00D3B68D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +109,7 @@
 		42CEAEAD266A38BB00D3B68D /* touchevent */ = {
 			isa = PBXGroup;
 			children = (
+				42CEAEE1266A3F7D00D3B68D /* Stamp素材 */,
 				42CEAEAE266A38BB00D3B68D /* AppDelegate.swift */,
 				42CEAEB0266A38BB00D3B68D /* SceneDelegate.swift */,
 				42CEAEB2266A38BB00D3B68D /* ViewController.swift */,
@@ -126,6 +137,18 @@
 				42CEAED2266A38DE00D3B68D /* Info.plist */,
 			);
 			path = toucheventUITests;
+			sourceTree = "<group>";
+		};
+		42CEAEE1266A3F7D00D3B68D /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				421BD24D266B386200B9ADA3 /* hert.png */,
+				421BD274266B3C4A00B9ADA3 /* hana.png */,
+				421BD24C266B386200B9ADA3 /* はな.png */,
+				421BD24A266B386200B9ADA3 /* 桜.png */,
+				421BD24B266B386200B9ADA3 /* 木.png */,
+			);
+			path = "Stamp素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421BD250266B386200B9ADA3 /* 木.png in Resources */,
+				421BD24F266B386200B9ADA3 /* 桜.png in Resources */,
+				421BD252266B386200B9ADA3 /* hert.png in Resources */,
+				421BD275266B3C4A00B9ADA3 /* hana.png in Resources */,
 				42CEAEBB266A38DD00D3B68D /* LaunchScreen.storyboard in Resources */,
 				42CEAEB8266A38DD00D3B68D /* Assets.xcassets in Resources */,
+				421BD251266B386200B9ADA3 /* はな.png in Resources */,
 				42CEAEB6266A38BB00D3B68D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
